@@ -1,10 +1,239 @@
-ul{
-    list-style-type: none;
+body{
+    background-image: linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url(./assets/bg.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+  }  
+   
+.site-heading{
+   margin-top: 70px; 
+   color: #e6a756;
 }
-.second_list{
-    display: none;
+.site-heading-lower{
+    font-size: 80px;
+    font-weight: 100;
+    letter-spacing: 5px;
 }
-.e_surasi:hover .second_list{ 
-display: block;
+.navbar{
+    margin-top: 40px;
+    background-color: rgba(47, 23, 15, 0.9);
+    font-family: "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 700;
+}
+.navbar:hover{
+    color: #926b37;
+}
+.image{
+  width: 800px;
+  border-radius: 12px;
+ 
+
+}
+.text_div{
+  background-color: #f6e1c5;
+  width: 500px;
+  height: 370px;
+  position: relative;
+  right: 280px;
+  top: 120px;
+  z-index: 2;
+  text-align: center;
+  padding-top: 38px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 12px;
+  
+}
+.image_div{
+  position: absolute;
+  margin-top: 80px;
+  margin-left: 230px;
+  
+}
+.coffee_headingUP{
+  font-size: 16px;
+  color: #212529;
+  font-weight: 700;
+  
+}
+.coffee_headingLOW{
+  font-size: 48px;
+  font-weight: 100;
+  letter-spacing: 3px;
+}
+.coffee_paraqraf{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 17px;
+  margin-top: 20px;
+  
+}
+.coffee_button{
+  width: 150px ;
+  height: 70px;
+  border-radius: 12px;
+  border: 0;
+  background-color: #da9132;
+  position: relative;
+  top: 25px;
+  color: black;
+  font-weight: 500;
+  font-size: 14px;
 }
 
+.promise_section{
+  width: 100%;
+  height: 400px;
+  background-color: #daa054d0;
+  display: flex;
+  align-items: center;
+  margin-top: 300px;
+}
+.div_promise{
+  width: 800px;
+  height: 300px;
+  background-color: #fcdfbaec;
+  margin-left: 280px;
+  text-align: center;
+  padding-top: 38px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.footerr{
+  width: 100%;
+  height: 140px;
+  background-color: #2f170fe6;
+  margin-top: 80px;
+  text-align: center;
+  padding-top: 70px;
+}
+
+
+
+.about_image_div{
+
+  margin-top: 70px;
+  
+}
+.about_image{
+  width: 1116px;
+  height: 417px;
+  margin-left: 120px;
+  border-radius: 8px;
+
+}
+.about_text{
+  background-color: #fcdfba;
+  width: 800px;
+  height: 400px;
+  margin-left: 270px;
+  position: relative;
+  top: -80px;
+  border-radius: 8px;
+  padding-top: 40px;
+  padding-left: 38px;
+}
+
+.products_image{
+  width: 700px;
+  border-radius: 8px;
+  margin-left: 340px;
+}
+.products_image_div{
+  margin-top: 100px;
+  
+
+}
+.products_heading{
+  background-color: #fcdfba;
+  width: 450px;
+  height: 180px;
+  padding-top: 40px;
+  padding-left: 20px;
+  border-radius: 8px;
+  position: relative;
+  left: 800px;
+  top: 150px;
+}
+.products_paragraph{
+  width: 650px;
+  height: 220px;
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 20px;
+  background-color: #fcdfba ;
+  position: relative;
+  left: 120px;
+  top: -80px;
+  font-family: 'Times New Roman', Times, serif;
+  line-height: 30px ;
+  border-radius: 8px;
+
+}
+
+.products_heading_sec{
+  background-color: #fcdfba;
+  width: 550px;
+  height: 180px;
+  padding-top: 40px;
+  padding-left: 20px;
+  border-radius: 8px;
+  position: relative;
+  left: 100px;
+  top: 200px;
+  
+}
+.products_paragraph_sec{
+  width: 650px;
+  height: 220px;
+  padding-top: 20px;
+  padding-left: 40px;
+  padding-right: 20px;
+  background-color: #fcdfba ;
+  font-family: 'Times New Roman', Times, serif;
+  line-height: 30px ;
+  border-radius: 8px;
+  position: relative;
+  left: 550px;
+  top: -50px;
+  
+
+}
+.products_heading_rd{
+  background-color: #fcdfba;
+  width: 700px;
+  height: 180px;
+  padding-top: 40px;
+  padding-left: 20px;
+  border-radius: 8px;
+  position: relative;
+  left: 580px;
+  top: 150px;
+}
+
+
+.store_section{
+  width: 100%;
+  height: 700px;
+  background-color: #e4ab62c4;
+  margin-top: 60px;
+}
+.text_divv{
+  width: 55%;
+  height: 630px;
+  background-color: #f6e1c5;
+  margin-left: 290px;
+  padding-top: 45px;
+  
+}
+
+.listt{
+  border-bottom: 1px solid rgba(230, 167, 86, 0.5);
+  padding-bottom: 0.25rem;
+  margin-bottom: 1rem;
+  font-style: italic;
+}
+.div_box{
+  width: 300px;
+   margin-left: 250px;
+}
