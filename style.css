@@ -1,0 +1,10 @@
+ul{
+    list-style-type: none;
+}
+.second_list{
+    display: none;
+}
+.e_surasi:hover .second_list{ 
+display: block;
+}
+
